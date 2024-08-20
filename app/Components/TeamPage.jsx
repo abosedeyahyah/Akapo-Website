@@ -13,7 +13,7 @@ const TeamPage = () => {
           <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
             <img
               src="/Images/Team-img.png"
-              alt="Computer Merchandise"
+              alt=""
               className="w-full h-58 object-cover"
             />
             <div className="p-4">
@@ -30,7 +30,7 @@ const TeamPage = () => {
           <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
             <img
               src="/Images/Team-img2.png"
-              alt="Computer Merchandise"
+              alt=""
               className="w-full h-58 object-cover"
             />
             <div className="p-4">
@@ -46,8 +46,8 @@ const TeamPage = () => {
           </div>
           <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
             <img
-              src="/Images/Team-img3.png"
-              alt="Computer Merchandise"
+              src="/Images/Team-Img3.png"
+              alt=""
               className="w-full h-58 object-cover"
             />
             <div className="p-4">
