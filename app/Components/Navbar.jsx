@@ -5,7 +5,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-      <nav className="bg-[#EFF5FA] py-2  justify-center">
+      <nav className="bg-[#EFF5FA] py-2  justify-center border-b-2">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center">
         <div className="text-black">
           <img
