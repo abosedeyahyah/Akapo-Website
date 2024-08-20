@@ -1,9 +1,9 @@
 
-import Mainlayout from "./Conponents/Mainlayout";
+import Mainlayout from "./Components/Mainlayout";
 import "./globals.css";
 
 export const metadata = {
-  title: "Nextjs optic IT solution",
+  title: "Nextjs Akapo",
   description: "This is a project from the magnital technologies",
 };
 
