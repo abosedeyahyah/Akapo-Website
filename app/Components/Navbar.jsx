@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
@@ -14,28 +15,28 @@ const Navbar = () => {
           />
         </div>
         <div className="max-w-7xl mx-auto flex justify-between items-center space-x-6">
-          <a href="#home" className="text-black">
+          <Link href="#home" className="text-black">
             Home
-          </a>
-          <a href="#about" className="text-black">
+          </Link>
+          <Link href="#about" className="text-black">
           Invest
-          </a>
-          <a href="#services" className="text-black">
+          </Link>
+          <Link href="#services" className="text-black">
           Savings
-          </a>
-          <a href="#services" className="text-black">
+          </Link>
+          <Link href="#services" className="text-black">
           Loan
-          </a>
-          <a href="#services" className="text-black">
+          </Link>
+          <Link href="#services" className="text-black">
           FAQs
-          </a>
+          </Link>
         </div>
-        <a
+        <Link
           href="#chat"
           className="text-white bg-green-600 px-4 p-3 rounded-full flex items-center gap-2"
         >
          Create free account
-        </a>
+        </Link>
       </div>
     </nav>
     </div>
