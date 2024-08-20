@@ -30,7 +30,7 @@ const TeamPage = () => {
           <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
             <img
               src="/Images/Team-img2.png"
-              alt=""
+              alt="Computer Merchandise"
               className="w-full h-58 object-cover"
             />
             <div className="p-4">
