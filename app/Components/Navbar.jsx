@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
         <Link
           href="#chat"
-          className="text-white bg-green-600 px-4 p-3 rounded-full flex items-center gap-2"
+          className="text-white bg-green-600 px-3 p-2 rounded flex items-center gap-2"
         >
          Create free account
         </Link>
