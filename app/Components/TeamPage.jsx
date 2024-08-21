@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const TeamPage = () => {
@@ -11,7 +12,7 @@ const TeamPage = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mx-auto px-20 mt-8">
           <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
-            <img
+            <Image
               src="/Images/Team-img.png"
               alt=""
               className="w-full h-58 object-cover"
@@ -28,7 +29,7 @@ const TeamPage = () => {
             </div>
           </div>
           <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
-            <img
+            <Image
               src="/Images/Team-img2.png"
               alt="Computer Merchandise"
               className="w-full h-58 object-cover"
@@ -37,7 +38,7 @@ const TeamPage = () => {
               <h3 className="font-bold text-xl mb-2">John Doe</h3>
               <p>CEO</p>
               <div className="flex">
-                <img src="Images/TwitterX.png" alt="" />
+                <Image src="Images/TwitterX.png" alt=""/>
                 <img src="Images/Linkedin.png" alt="" />
                 <img src="Images/Facebook.png" alt="" />
                 <img src="Images/Instagram.png" alt="" />
@@ -45,7 +46,7 @@ const TeamPage = () => {
             </div>
           </div>
           <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
-            <img
+            <Image
               src="/Images/Team-img3.png"
               alt=""
               className="w-full h-58 object-cover"
