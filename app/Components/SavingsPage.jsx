@@ -42,7 +42,7 @@ const SavingsPage = () => {
           <div className="bg-white p-6 rounded-lg text-center shadow-md">
             <img
               src="/Images/User.png"
-              alt="Computer Merchandise"
+              alt=""
               className="h-auto max-w-lg mx-auto bg-[#D9D9D9] rounded-full p-2"
             />
             <h2 className="text-3xl md:text-4xl lg:text-2xl Montserrat font-medium">
@@ -63,7 +63,7 @@ const SavingsPage = () => {
           <div className="bg-white p-6 rounded-lg text-center">
             <img
               src="/Images/End.png"
-              alt="Computer Merchandise"
+              alt=""
               className="h-auto max-w-lg mx-auto bg-[#D9D9D9] rounded-full p-2"
             />
             <h2 className="text-3xl md:text-4xl lg:text-2xl Montserrat font-medium">
@@ -84,7 +84,7 @@ const SavingsPage = () => {
           <div className="bg-white p-6 rounded-lg text-center">
             <img
               src="/Images/Same-img.png"
-              alt="Computer Merchandise"
+              alt=""
               className="h-auto max-w-lg mx-auto bg-[#D9D9D9] rounded-full p-2"
             />
             <h2 className="text-5xl md:text-5xl lg:text-2xl Montserrat font-medium mt-3">

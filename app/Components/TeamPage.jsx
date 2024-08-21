@@ -29,7 +29,7 @@ const TeamPage = () => {
           </div>
           <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
             <img
-              src="/Images/Team-Img2.png"
+              src="/Images/Team-imgs.png"
               alt=""
               className="w-full h-58 object-cover"
             />
@@ -46,7 +46,7 @@ const TeamPage = () => {
           </div>
           <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
             <img
-              src="/Images/Team-img3.png"
+              src="/Images/Team-image.png"
               alt=""
               className="w-full h-58 object-cover"
             />
@@ -108,12 +108,9 @@ const TeamPage = () => {
             </div>
           </div>
         </div>
-        <div className="text-center mt-5">
-          <h1>Members Reviews</h1>
-        </div>
       </section>
     </div>
   );
-};
+}; 
 
 export default TeamPage;
