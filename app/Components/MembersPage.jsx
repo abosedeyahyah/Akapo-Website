@@ -1,16 +1,19 @@
 import React from "react";
+import Card from "./Card";
 
 export default function MembersPage() {
   return (
     <main>
-      <section className="bg-[#B3D4BC] px-20">
+      <section className="bg-[#B3D4BC] px-20 h-full w-full">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center py-6">Members Reviews</h1>
           <p className="text-xl md:text-xl lg:text-xl font-medium text-center">
             Hear what our members have to say about their experiences with
             AkapoCoop.
           </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-12">
+<div className="py-20">
+<Card/>
+</div>
+        {/* <div className="flex justify-between gap-8 py-12">
           <div className="bg-white p-6 rounded-lg shadow-md">
             <p className="text-xl md:text-xl lg:text-xl font-medium">
               “AkapoCoop has helped me save for my dream vacation. The Target
@@ -32,7 +35,7 @@ export default function MembersPage() {
               </div>
             </div>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white/50 h-96 p-6 rounded-lg shadow-md">
           <p className="text-xl md:text-xl lg:text-xl font-medium">
               “AkapoCoop has helped me save for my dream vacation. The Target
               Savings plan is fantastic!
@@ -74,7 +77,7 @@ export default function MembersPage() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </main>
   );

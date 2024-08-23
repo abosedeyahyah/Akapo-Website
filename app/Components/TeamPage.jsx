@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-
 const TeamPage = () => {
   return (
     <div>
@@ -13,49 +12,96 @@ const TeamPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mx-auto px-20 mt-8">
           <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
             <Image
+              width={500}
+              height={500}
               src="/Images/Team-img.png"
               alt=""
-              className="w-full h-58 object-cover"
             />
             <div className="p-4">
               <h3 className="font-bold text-xl mb-2">John Doe</h3>
               <p>CEO</p>
               <div className="flex">
-                <img src="Images/TwitterX.png" alt="" />
-                <img src="Images/Linkedin.png" alt="" />
-                <img src="Images/Facebook.png" alt="" />
-                <img src="Images/Instagram.png" alt="" />
+                <Image
+                  width={30}
+                  height={30}
+                  src="/Images/TwitterX.png"
+                  alt="Picture"
+                />
+                <Image
+                  width={30}
+                  height={30}
+                  src="/Images/Linkedin.png"
+                  alt="Picture"
+                />
+                <Image
+                  width={30}
+                  height={30}
+                  src="/Images/Facebook.png"
+                  alt="Picture"
+                />
+                <Image
+                  width={30}
+                  height={30}
+                  src="/Images/Instagram.png"
+                  alt="Picture"
+                />
               </div>
             </div>
           </div>
           <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
             <Image
-              src="/Images/Team-img2.png"
-              alt="Computer Merchandise"
-              className="w-full h-58 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="font-bold text-xl mb-2">John Doe</h3>
-              <p>CEO</p>
-              <div className="flex">
-                <Image src="Images/TwitterX.png" alt=""/>
-                <img src="Images/Linkedin.png" alt="" />
-                <img src="Images/Facebook.png" alt="" />
-                <img src="Images/Instagram.png" alt="" />
-              </div>
-            </div>
-          </div>
-          <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
-            <Image
-              src="/Images/Team-img3.png"
+              width={500}
+              height={500}
+              src="/Images/Team-image.png"
               alt=""
               className="w-full h-58 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="font-bold text-xl mb-2">John Doe</h3>
+              <p>CEO</p>
+              <div className="flex">
+                <Image
+                  width={30}
+                  height={30}
+                  src="/Images/TwitterX.png"
+                  alt="Picture"
+                />
+                <Image
+                  width={30}
+                  height={30}
+                  src="/Images/Linkedin.png"
+                  alt="Picture"
+                />
+                <Image
+                  width={30}
+                  height={30}
+                  src="/Images/Facebook.png"
+                  alt="Picture"
+                />
+                <Image
+                  width={30}
+                  height={30}
+                  src="/Images/Instagram.png"
+                  alt="Picture"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
+            {/* <Image src={profilePic} alt="Picture of the author" priority /> */}
+
+            <Image
+              width={500}
+              height={500}
+              src="/Images/Team-imgs.png"
+              alt=""
+              // className="w-full h-58 object-cover"
             />
             <div className="p-4">
               <h3 className="font-bold text-xl mb-2">John Doe</h3>
               <p>CEO.</p>
               <div className="flex">
-                <img src="Images/TwitterX.png" alt="" />
+                <img src="" alt="" />
                 <img src="Images/Linkedin.png" alt="" />
                 <img src="Images/Facebook.png" alt="" />
                 <img src="Images/Instagram.png" alt="" />
@@ -112,6 +158,6 @@ const TeamPage = () => {
       </section>
     </div>
   );
-}; 
+};
 
 export default TeamPage;
