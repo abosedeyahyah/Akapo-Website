@@ -3,8 +3,8 @@ import React from "react";
 const Card = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="bg-white p-4 rounded-lg shadow-md w-96 h-72">
+      <div className="grid grid-cols-1 md:grid-cols-3  gap-4">
+        <div className="bg-white p-4 rounded-lg shadow-md max-w-lg h-72">
           <div className="mt-5">
             <p className="text-xl md:text-xl lg:text-xl font-medium">
               “AkapoCoop has helped me save for my dream vacation. The Target
@@ -29,7 +29,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white p-4 rounded-lg shadow-md w-96 h-96 relative -top-7">
+        <div className="bg-white p-4 rounded-lg shadow-md max-w-lg h-96 relative -top-7">
           <div className="mt-10">
             <p className="text-xl md:text-xl lg:text-xl font-medium">
               “AkapoCoop has helped me save for my dream vacation. The Target
@@ -54,7 +54,7 @@ const Card = () => {
             <img src="Images/star.png" alt="" />
           </div>
         </div>
-        <div className="bg-white p-4 rounded-lg shadow-md w-96 h-72">
+        <div className="bg-white p-4 rounded-lg shadow-md max-w-lg  h-72">
           <div className="mt-5">
             <p className="text-xl md:text-xl lg:text-xl font-medium">
               “AkapoCoop has helped me save for my dream vacation. The Target

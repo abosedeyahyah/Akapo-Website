@@ -4,7 +4,7 @@ import Card from "./Card";
 export default function MembersPage() {
   return (
     <main>
-      <section className="bg-[#B3D4BC] px-20 h-full w-full">
+      <section className="bg-[#B3D4BC] px-20 h-full">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center py-6">Members Reviews</h1>
           <p className="text-xl md:text-xl lg:text-xl font-medium text-center">
             Hear what our members have to say about their experiences with

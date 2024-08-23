@@ -6,14 +6,14 @@ const SavingsPage = () => {
     <main className="bg-[#EFF5FA]">
       <section className="h-90 p-3 mb-10">
         <div className="container mx-auto justify-center">
-          <p className="text-[#2F9B7A]text-3xl font-bold text-center mb-5">
+          <p className="text-[#2F9B7A] text-3xl font-bold text-center mb-5">
             Our Savings Plans
           </p>
           <h1 className="text-lg md:text-2xl max-w-xl mb-3 text-black text-center mx-auto font-bold">
             Explore AkapoCoop’s savings options and find the perfect fit for
             your financial goals.
           </h1>
-          <p className="text-center text-xl md:text-[15px] font-bold text-black mb-8">
+          <p className="text-center text-xl md:text-[15px] font-medium text-black mb-8">
             Find the best savings plan to match your financial goals.
           </p>
         </div>
@@ -104,7 +104,7 @@ const SavingsPage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#2F9B7A] justify-center rounded-br-[250px] h-[400px] p-6">
+      <section className="bg-[#2F9B7A] justify-center rounded-br-[250px] h-full p-6">
         <h3 className="text-3xl font-bold text-center mb-8 text-white">Our Story</h3>
         <p className="max-w-5xl mx-auto text-white py-3">
           In the lively town of Akapoco, AkapoCoop Savings is more than just a

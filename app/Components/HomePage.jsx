@@ -8,14 +8,14 @@ const HomePage = () => {
     <div>
       <main>
         <Navbar />
-        <section className="bg-[#EFF5FA] text-[#000000F] py-12">
+        <section className="bg-[#EFF5FA] text-[#000000F] py-12 mx-auto">
           <div className="container mx-auto ">
             <div className="flex flex-col lg:flex-row">
               <div className="lg:w-1/2">
                 <img
                   src="/Images/Home-img.png"
                   alt=""
-                  className="w-[666px] h-[638px] object-cover"
+                  className="w-[666px] h-[620px] object-cover"
                 />
               </div>
               <div className="lg:w-1/2 lg:pl-8 lg:mt-20">
@@ -31,7 +31,7 @@ const HomePage = () => {
                   achieve your financial goals. Join us today and begin building
                   a brighter future.
                 </p>
-                <div className="mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+                <div className="mt-8 flex space-y-4 md:space-y-0 md:space-x-4">
                   <Link
                     href="#learn-more"
                     className="px-3 bg-[#00A874] text-white rounded gap-2 flex"

@@ -3,14 +3,14 @@ import React from "react";
 const TeamPage = () => {
   return (
     <div>
-      <section className="h-screen py-12 bg-[#F2F7F4]">
+      <section className="h-full py-12 bg-[#F2F7F4]">
         <div className="text-center">
           <h1 className="text-lg md:text-4xl max-w-xl mb-5 Montserrat text-black text-center mx-auto font-medium">
             Meet Our Dedicated Team
           </h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mx-auto px-20 mt-8">
-          <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
+          <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[460px]">
             <Image
               width={500}
               height={500}
@@ -30,7 +30,7 @@ const TeamPage = () => {
                 <Image
                   width={30}
                   height={30}
-                  src="/Images/Linkedin.png"
+                  src="/Images/LinkedIn.png"
                   alt="Picture"
                 />
                 <Image
@@ -48,7 +48,7 @@ const TeamPage = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
+          <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[460px]">
             <Image
               width={500}
               height={500}
@@ -69,7 +69,7 @@ const TeamPage = () => {
                 <Image
                   width={30}
                   height={30}
-                  src="/Images/Linkedin.png"
+                  src="/Images/LinkedIn.png"
                   alt="Picture"
                 />
                 <Image
@@ -87,24 +87,42 @@ const TeamPage = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[500px]">
-            {/* <Image src={profilePic} alt="Picture of the author" priority /> */}
+          <div className="bg-[#D9D9D9] rounded-br-[150px] shadow-md rounded-lg overflow-hidden h-[460px]">
 
             <Image
               width={500}
               height={500}
               src="/Images/Team-imgs.png"
               alt=""
-              // className="w-full h-58 object-cover"
             />
             <div className="p-4">
               <h3 className="font-bold text-xl mb-2">John Doe</h3>
               <p>CEO.</p>
               <div className="flex">
-                <img src="" alt="" />
-                <img src="Images/Linkedin.png" alt="" />
-                <img src="Images/Facebook.png" alt="" />
-                <img src="Images/Instagram.png" alt="" />
+                <Image
+                  width={30}
+                  height={30}
+                  src="/Images/TwitterX.png"
+                  alt="Picture"
+                />
+                <Image
+                  width={30}
+                  height={30}
+                  src="/Images/LinkedIn.png"
+                  alt="Picture"
+                />
+                <Image
+                  width={30}
+                  height={30}
+                  src="/Images/Facebook.png"
+                  alt="Picture"
+                />
+                <Image
+                  width={30}
+                  height={30}
+                  src="/Images/Instagram.png"
+                  alt="Picture"
+                />
               </div>
             </div>
           </div>
