@@ -1,6 +1,6 @@
-
-import Link from 'next/link'
+"use client";
 import React, { useState } from 'react'
+import Link from 'next/link'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -9,9 +9,9 @@ const Navbar = () => {
   const close = () => setNav(false); 
   return (
     <div>
-      <nav className="bg-[#EFF5FA] py-2 justify-center border-b-2">
+      <nav className="bg-[#EFF5FA] py-2 justify-center border-b-2 ">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center">
-        <div className="text-black">
+        <div className="px-3 mt-2 flex justify-between items-center w-full lg:w-auto">
           <img
             src="/Images/Nav-img.png"
             alt=""
@@ -31,7 +31,7 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-        <div className="max-w-7xl mx-auto flex justify-between items-center space-x-6">
+        <div className="max-w-7xl mx-auto hidden md:flex justify-between items-center space-x-6 ">
           <Link href="#home" className="text-black">
             Home
           </Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
         </div>
         <Link
           href="#chat"
-          className="text-white bg-green-600 px-3 p-2 rounded flex items-center gap-2"
+          className="hidden lg:flex text-white bg-green-600 px-3 p-2 rounded -center gap-2"
         >
          Create free account
         </Link>
